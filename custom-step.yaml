@@ -1,0 +1,10 @@
+name: 'Custom Step'
+description: 'This is a custom step that does XYZ.'
+definition:
+  using: 'node'
+  main: './scripts/custom-script.js'
+  post: './scripts/post-custom-script.js'
+inputs:
+  - name: 'token'
+    description: 'Token'
+    required: true
